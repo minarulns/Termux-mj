@@ -14,7 +14,7 @@ echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mMd. Minarul Islam \e[93
 echo
 echo -e "  \e[101;1;39mNOTE\e[0;1;33m Use upto 9 words\e[0m"
 echo ""
-cd ~/Termux-os/.object
+cd ~/Termux-mj/.object
 echo -e '\e[1;96m'
 read -p '  Type Banner Name ❯ ' name
 sed -e "s/\PROC/$name/g" .2zshrc > $HOME/.zshrc
