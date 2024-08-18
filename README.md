@@ -80,14 +80,12 @@
 ## Credits
 
 * [+] Credits to Oh My Zsh !
-* [+] H4Ck3R ( Raj Aryan )
+* [+] Minarulns ( Md. Minarul Islam )
 
 ## CONNECT WITH US :
-<a href="https://www.buymeacoffee.com/h4ck3r" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4Ck3R-Raj-brightgreen?style=for-the-badge&logo=github"></a>
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/h4ck3r0_official?igsh=NzN1NTNucWhjOXJp)
-[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.h4ck3r.me)
-[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/h4ck3r_group)
-<a href="https://rebrand.ly/7elzgww"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4Ck3R-red?style=for-the-badge&logo=Youtube"></a>
+<a href="https://github.com/Minarulns"><img title="Github" src="https://img.shields.io/badge/Minarulns-Minarul-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/minarulns)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.minarul.rg.gd)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/help_zone_ns)
+<a href="https://youtube.com/minarulns"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Minarulns-red?style=for-the-badge&logo=Youtube"></a>
 https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/
