@@ -34,7 +34,7 @@
 `Added Termux Extra Keys`
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/46929618/150729794-17dd4f17-19d0-4028-99b8-c7a88994d145.jpg" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/0a97d464-ce6b-4c9e-8d45-fb1942253050" width="300" hight="220">
 </p>
 
 `Your Name Banner`
