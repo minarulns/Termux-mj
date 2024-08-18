@@ -13,4 +13,4 @@ echo ""
 cd ~/Termux-mj/.object
 echo -e '\e[1;96m'
 read -p '  Type Shell Name ❯ ' name
-sed -e "s/\h4ck3r/$name/g" .MinaRul.zsh-theme > $HOME/.oh-my-zsh/themes/MinaRul.zsh-theme
+sed -e "s/\h4ck3r/$name/g" .h4Ck3r.zsh-theme > $HOME/.oh-my-zsh/themes/h4Ck3r.zsh-theme
