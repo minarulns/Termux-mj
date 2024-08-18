@@ -46,7 +46,7 @@ banner ( ) {
                                                          cp -r .colors.properties ~/.termux/colors.properties
                                                          cp -r .termux.properties ~/.termux/termux.properties
                                                          clear
-                                                         cd ~/Termux-mj ; bash os.sh
+                                                         cd ~/Termux-mj ; bash mj.sh
                                                          termux-open-url h4ck3r.me
                                                          
                                                          }
@@ -54,41 +54,41 @@ banner ( ) {
                                                                                rm -rf ~/.zshrc
                                                                                git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
                                                                                cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-                                                                               cd ~/Termux-mj ; bash os.sh
+                                                                               cd ~/Termux-mj ; bash mj.sh
                                                                                 }
                                                                                3line() {
                                                                                                  pkg install zsh
                                                                                                  chsh -s zsh
-                                                                                                 cd ~/Termux-mj ; bash os.sh
+                                                                                                 cd ~/Termux-mj ; bash mj.sh
                                                                                                   }
                                                                                                    4line() {
                                                                                                                          chsh -s bash
-                                                                                                                         cd  ~/Termux-mj ; bash os.sh
+                                                                                                                         cd  ~/Termux-mj ; bash mj.sh
                                                                                                                          }
                                                                                                                          5line() {
                                                                                                                                               rm -rf ~/.zshrc
                                                                                                                                               cd ~/Termux-mj/.object
                                                                                                                                               bash  .2.sh
-                                                                                                                                              clear ; cd ~/Termux-mj ; bash os.sh
+                                                                                                                                              clear ; cd ~/Termux-mj ; bash mj.sh
                                                                                                                                                   }
                                                                                                                                                  
                                                                                                                                                 6line() {
                                                                                                                                                                          cd ~/Termux-mj/.object
                                                                                                                                                                          bash .1.sh
-                                                                                                                                                                         clear ; cd ~/Termux-mj ; bash os.sh
+                                                                                                                                                                         clear ; cd ~/Termux-mj ; bash mj.sh
                                                                                                                                                                        }
                                                                                                                                                                        7line() {
                                                                                                                                                                                                                     cd ~/Termux-mj/.object
                                                                                                                                                                                                                     rm -rf ~/.zshrc
                                                                                                                                                                                                                     chsh -s zsh
                                                                                                                                                                                                                     bash .3.sh
-                                                                                                                                                                                                                    clear ; cd ~/Termux-mj ; bash os.sh
+                                                                                                                                                                                                                    clear ; cd ~/Termux-mj ; bash mj.sh
                                                                                                                                                                                                                      }
                                                                                                                                                                                                                      8line() {
                                                                                                                                                                                                                                   rm -rf ~/Termux-mj 
                                                                                                                                                                                                                                   cd
                                                                                                                                                                                                                                   git clone https://github.com/Minarulns/Termux-mj 
-                                                                                                                                                                                                                                  cd ~/Termux-mj ; bash os.sh
+                                                                                                                                                                                                                                  cd ~/Termux-mj ; bash mj.sh
                                                                                                                                                                                                                                   }
     
                                  selection () {
