@@ -1,6 +1,6 @@
 
 #echo ""
-ZSH_THEME="h4ck3r"
+ZSH_THEME="h4Ck3r"
 plugins=(git)
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
