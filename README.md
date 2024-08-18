@@ -1,28 +1,28 @@
 <p align="center">
-<a href="https://h4ck3r0.github.io/"><img title="Made in BANGLADESH" src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+<a href="https://Minarulns.github.io/"><img title="Made in BANGLADESH" src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://h4ck3r0.github.io/"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-TermuxOs-green.svg?style=flat-square"></a>
-<a href="https://h4ck3r0.github.io/"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
-<a href="https://h4ck3r0.github.io/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
+<a href="https://Minarulns.github.io/"><img title="Made in BANGLADESH" src="https://img.shields.io/badge/Tool-TermuxMj-green.svg?style=flat-square"></a>
+<a href="https://Minarulns.github.io/"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
+<a href="https://Minarulns.github.io/"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square"></a>
 </p>
 <p align="center">
  <a href=""><img src="https://github.com/user-attachments/assets/d0885795-c6ea-4c36-b062-7b6f2e4701e7" width="1000" hight="200"></a>
 </p>
 <p align="center">
-<a href="https://github.com/h4ck3r0"><img title="Github" src="https://img.shields.io/badge/H4CK3R-RAJ-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://youtu.be/VDeLnDxVziw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-H4CK3R-red?style=for-the-badge&logo=Youtube"></a>
+<a href="https://github.com/Minarulns"><img title="Github" src="https://img.shields.io/badge/Minarulns-MINARUL-brightgreen?style=for-the-badge&logo=github"></a>
+<a href="https://youtu.be/minarulns"><img title="YouTube" src="https://img.shields.io/badge/YouTube-minarulns-red?style=for-the-badge&logo=Youtube"></a>
 </p>
 <p align="center">
-<a href="https://github.com/h4ck3r0"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Followers" src="https://img.shields.io/github/followers/h4ck3r0?color=blue&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Stars" src="https://img.shields.io/github/stars/h4ck3r0/Termux-os?color=red&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Forks" src="https://img.shields.io/github/forks/h4ck3r0/Termux-os?color=red&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Watching" src="https://img.shields.io/github/watchers/h4ck3r0/Termux-os?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/h4ck3r0"><img title="Licence" src="https://img.shields.io/badge/License-GNU-blue.svg?style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103&style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Followers" src="https://img.shields.io/github/followers/Minarulns?color=blue&style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Stars" src="https://img.shields.io/github/stars/Minarulns/Termux-mj?color=red&style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Forks" src="https://img.shields.io/github/forks/Minarulns/Termux-mj?color=red&style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Watching" src="https://img.shields.io/github/watchers/Minarulns/Termux-mj?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Minarulns"><img title="Licence" src="https://img.shields.io/badge/License-GNU-blue.svg?style=flat-square"></a>
 </p>
 
-## Termux-os
+## Termux-mj
 
 * [+] Based on Zsh Shell !
 
@@ -67,13 +67,13 @@
 
 
 
-* `git clone https://github.com/h4ck3r0/Termux-os`
+* `git clone https://github.com/Minarulns/Termux-mj`
 
-* `cd Termux-os`
+* `cd Termux-mj`
 
 * `bash os.sh`
 
-#### Full Process : [Video](https://youtu.be/VSG2glraCws) 
+#### Full Process : [Video](https://youtu.be/minarulns) 
 
 ## [Read More](https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/) 
 
