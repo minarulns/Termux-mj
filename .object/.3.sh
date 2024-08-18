@@ -7,7 +7,7 @@ PUT(){ echo -en "\033[${1};${2}H";}
 clear;toilet -t -f mono12  "HACKER" --gay -F border
 echo ""
 PUT 11 40
-echo -e "\e[92mBy\e[1;93m Minarul Islam\e[1;95m /\e[1;96m  "
+echo -e "\e[92mBy\e[1;93m Minarul Islam\e[1;95m \e[1;96m  "
 PUT 12 3
 echo ""
 echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mMd. Minarul Islam \e[93m/ \e[100;92myoutube.com/minarulns\e[0m"
