@@ -40,18 +40,18 @@
 `Your Name Banner`
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/46929618/150729923-9f0415aa-d0fd-46c7-86cb-1ef65affffcb.jpg" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/1b170a37-857a-49e1-af1e-5d6e1ff14b6a" width="300" hight="220">
 </p>
 
 `Added Own made Advance zsh theme`
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/46929618/150729435-7eea5d74-8474-427a-9ada-a8d50da91136.jpg" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/ce6ba72e-ca70-4ccd-91d8-1fb227821cf0" width="300" hight="220">
 </p>
 
 `Added Highlight / Autosuggestion`
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/46929618/150729854-a09be75c-5e3a-4a21-85b4-71191ee42bd2.jpg" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/db8c5d9c-9532-467b-bdf0-d4aaca6e81e1" width="300" hight="220">
 </p>
 
 ## Photos Of Theme
@@ -60,7 +60,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/46929618/150729988-7c0c2a39-fe78-4dc6-8174-1a220e0ee1e5.jpg" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/4dca1e15-832b-480b-af07-77d8c1998db2" width="300" hight="220">
 </p>
 
 ## Installation
