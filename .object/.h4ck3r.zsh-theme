@@ -3,7 +3,7 @@ local git_branch='$()%{$reset_color%}'
 
 
 PROMPT="
-%(?,%{$fg_bold[red]%} ┌─╼%{$fg_bold[red]%}[%{$fg_bold[blue]%}MINARUL%{$fg_bold[yellow]%}💙%{$fg_bold[cyan]%}termux%{$fg_bold[red]%}]%{$fg_bold[green]%}-%{$fg_bold[red]%}[%{$fg_bold[green]%}%(5~|%-1~/…/%2~|%4~)%{$fg_bold[red]%}]%{$reset_color%} ${git_branch}
+%(?,%{$fg_bold[red]%} ┌─╼%{$fg_bold[red]%}[%{$fg_bold[blue]%}h4ck3r%{$fg_bold[yellow]%}💙%{$fg_bold[cyan]%}termux%{$fg_bold[red]%}]%{$fg_bold[green]%}-%{$fg_bold[red]%}[%{$fg_bold[green]%}%(5~|%-1~/…/%2~|%4~)%{$fg_bold[red]%}]%{$reset_color%} ${git_branch}
 %{$fg_bold[red]%} └────╼%{$fg_bold[white]%} ❯%{$fg_bold[blue]%}❯%{$fg_bold[cyan]%}❯%{$reset_color%} ,%{$fg_bold[red]%} ┌─╼%{$fg_bold[red]%}[%{$fg_bold[green]%}%(5~|%-1~/…/%2~|%4~)%{$fg_bold[red]%}]%{$reset_color%}
 %{$fg_bold[red]%} └╼%{$fg_bold[white]%} ❯%{$fg_bold[blue]%}❯%{$fg_bold[cyan]%}❯%{$reset_color%} "
 
