@@ -85,7 +85,7 @@
 ## CONNECT WITH US :
 <a href="https://github.com/Minarulns"><img title="Github" src="https://img.shields.io/badge/Minarulns-Minarul-brightgreen?style=for-the-badge&logo=github"></a>
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/minarulns)
-[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.minarul.rg.gd)
-[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/help_zone_ns)
+[![Wordpress](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.minarul.rg.gd)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://t.me/help_zone_ns)
 <a href="https://youtube.com/minarulns"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Minarulns-red?style=for-the-badge&logo=Youtube"></a>
 https://www.h4ck3r.me/how-to-install-theme-in-termux-in-one-click/
