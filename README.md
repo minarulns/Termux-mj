@@ -40,7 +40,7 @@
 `Your Name Banner`
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1b170a37-857a-49e1-af1e-5d6e1ff14b6a" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/e456d446-13c2-4ee8-8b13-3b9f6a2f9119" width="300" hight="220">
 </p>
 
 `Added Own made Advance zsh theme`
@@ -51,7 +51,7 @@
 `Added Highlight / Autosuggestion`
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/db8c5d9c-9532-467b-bdf0-d4aaca6e81e1" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/98dc1960-e6f9-4505-8a54-236b2ff4040f" width="300" hight="220">
 </p>
 
 ## Photos Of Theme
@@ -60,7 +60,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4dca1e15-832b-480b-af07-77d8c1998db2" width="300" hight="220">
+  <img src="https://github.com/user-attachments/assets/a590378f-8634-4686-bc6a-bd6ea7dc32b3" width="300" hight="220">
 </p>
 
 ## Installation
