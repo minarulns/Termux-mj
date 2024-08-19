@@ -71,7 +71,7 @@
 
 * `cd Termux-mj`
 
-* `bash os.sh`
+* `bash mj.sh`
 
 #### Full Process : [Video](https://youtu.be/minarulns) 
 
