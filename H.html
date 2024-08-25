@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --footer-bg: #111118;
+            --footer-color: #FCFCFC;
+            --footer-hover-color: #0049CE;
+            --footer-text-color: #BABABA;
+            --footerbar-bg: #0B0C11;
+            --footerbar-color: #FCFCFC;
+            --footerbar-hover-color: #0049CE;
+            --laso-bg: rgba(11, 11, 11, 0.5);
+            --lase-bg: rgba(11, 11, 11, 0.4);
+            --button-bg: #0049CE;
+            --button-color: #FFFFFF;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #footer-wrapper {
+            position: relative;
+            float: left;
+            width: 100%;
+            background-color: var(--footer-bg);
+            color: var(--footer-text-color);
+            z-index: 2;
+            box-shadow: 0 -1px 2px rgba(0,0,0,0.025);
+            border-radius: 4px 4px;
+        }
+
+        #footer-wrapper .primary-footer {
+            float: left;
+            width: 100%;
+            margin: 0;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .primary-footer.no-widget {
+            display: none;
+        }
+
+        #footer-wrapper:before {
+            content: "";
+            background: var(--footer-bg);
+            opacity: .8;
+            filter: alpha(opacity=70);
+            position: absolute;
+            bottom: -7px;
+            left: 0;
+            right: 0;
+            height: 7px;
+            width: 97.5%;
+            margin: auto;
+            z-index: 0;
+            border-radius: 0 0 4px 4px;
+        }
+
+        #footer-wrapper:after {
+            content: "";
+            background: var(--footer-bg);
+            opacity: .5;
+            filter: alpha(opacity=50);
+            position: absolute;
+            bottom: -14px;
+            left: 0;
+            right: 0;
+            height: 14px;
+            width: 95%;
+            margin: auto;
+            border-radius: 0 0 4px 4px;
+        }
+
+        #footer-wrapper .primary-footer:before {
+            content: "";
+            background: var(--laso-bg);
+            position: absolute;
+            top: -7px;
+            left: 0;
+            right: 0;
+            height: 7px;
+            width: 98%;
+            margin: auto;
+            border-radius: 4px 4px 0 0;
+        }
+
+        #footer-wrapper .primary-footer:after {
+            content: "";
+            background: var(--lase-bg);
+            position: absolute;
+            top: -14px;
+            left: 0;
+            right: 0;
+            height: 14px;
+            width: 96%;
+            margin: auto;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .gnews-pro-about-section {
+            position: relative;
+            float: left;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 30px 0;
+            margin: 0;
+        }
+
+        .primary-footer.has-border .gnews-pro-about-section {
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .footer-info h3.title {
+            font-size: 16px;
+            color: var(--footer-color);
+            text-transform: uppercase;
+            margin: 0 0 10px;
+        }
+
+        .gnews-pro-about-section .Image {
+            width: calc(100% - 345px);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+        }
+
+        .gnews-pro-about-section .footer-logo {
+            padding: 0 25px 0 0;
+        }
+
+        .rtl .gnews-pro-about-section .footer-logo {
+            padding: 0 0 0 25px;
+        }
+
+        .gnews-pro-about-section .footer-logo img {
+            display: block;
+            max-height: 34px;
+            margin: 0;
+        }
+
+        .gnews-pro-about-section .Image .image-caption {
+            font-size: 14px;
+            color: var(--footer-text-color);
+            margin: 0;
+        }
+
+        .gnews-pro-about-section .Image .image-caption a {
+            color: var(--footer-color);
+        }
+
+        .gnews-pro-about-section .Image .image-caption a:hover {
+            color: var(--footer-hover-color);
+        }
+
+        .gnews-pro-about-section .LinkList {
+            width: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 0;
+        }
+
+        .gnews-pro-about-section ul.social-icons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .gnews-pro-about-section .social-icons li {
+            margin: 0 0 0 10px;
+        }
+
+        .rtl .gnews-pro-about-section .social-icons li {
+            margin: 0 10px 0 0;
+        }
+
+        .gnews-pro-about-section .social-icons li a {
+            display: block;
+            width: 34px;
+            height: 34px;
+            background-color: rgba(155,155,155,0.05);
+            font-size: 16px;
+            color: var(--footer-color);
+            text-align: center;
+            line-height: 34px;
+        }
+
+        .gnews-pro-about-section .social-icons li a:hover {
+            color: #fff;
+        }
+
+        .footerbar {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: auto;
+            background-color: var(--footerbar-bg);
+            color: var(--footerbar-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+
+        .footerbar .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .footerbar .footer-copyright {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+        }
+
+        .footerbar .footer-copyright a {
+            color: var(--footerbar-color);
+        }
+
+        .footerbar .footer-copyright a:hover {
+            color: var(--footerbar-hover-color);
+        }
+
+        .footer-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex: 1;
+        }
+
+        .footer-menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+        }
+
+        .footer-menu ul li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        .footer-menu ul li a {
+            font-size: 14px;
+            color: var(--footerbar-color);
+            text-decoration: none;
+        }
+
+        .footer-menu ul li a:hover {
+            color: var(--footerbar-hover-color);
+        }
+
+        @media only screen and (max-width: 880px) {
+            #gnews-pro-about-section {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            .gnews-pro-about-section .Image {
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .gnews-pro-about-section .footer-logo,
+            .rtl .gnews-pro-about-section .footer-logo {
+                padding: 0;
+            }
+
+            .footer-info {
+                text-align: center;
+                margin: 25px 0 0;
+            }
+
+            .gnews-pro-about-section .LinkList {
+                width: 100%;
+                justify-content: center;
+                margin: 15px 0 0;
+            }
+
+            .gnews-pro-about-section ul.social-icons {
+                justify-content: center;
+            }
+
+            .gnews-pro-about-section .social-icons li,
+            .rtl .gnews-pro-about-section .social-icons li {
+                margin: 10px 5px 0;
+            }
+
+            .footerbar {
+                height: auto;
+                line-height: inherit;
+                padding: 25px 0;
+                margin: 0;
+                flex-direction: column;
+            }
+
+            .footerbar .container {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .footerbar .footer-copyright,
+            .footerbar .footer-menu {
+                width: 100%;
+                text-align: center;
+                margin: 0;
+            }
+
+            .footer-menu {
+                padding: 10px 0 0;
+            }
+
+            .footer-menu ul {
+                justify-content: center;
+            }
+
+            .footer-menu ul li {
+                margin: 5px 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Footer Wrapper -->
+    <footer id='footer-wrapper'>
+        <div class='primary-footer flex-center'>
+            <div class='container row-x1'>
+                <div class='gnews-pro-about-section section' id='gnews-pro-about-section' name='About Section'>
+                    <div class='widget Image' data-version='2' id='Image101'>
+                        <a class='footer-logo custom-image' href='/'>
+                            <img alt='Md. Minarul Islam' id='Image101_img' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-A6CyqFXllw5NmBsKjhCkKlc3ABGtdB_4_yZJLZ_pv-drRE5aqCizN765yvBGOwxM9-Rt-7JRks6a67nRfQaHkkYr0HXj4V4Eu7C2b76pfRElKD3GFL-2SVFlDgAwK3yEO8yxuoh2FSAI87v4yFmXQc1cv2M1dvrlTTfMhlUB-k4Ngwxv16b1-I0LPCY/s150/Jannat.png'/>
+                        </a>
+                        <div class='footer-info'>
+                            <h3 class='title'>About Us</h3>
+                            <p class='image-caption excerpt'>Blog Download Safe and Legal Free Software, Info, Tutorials, Design, Tricks and Blogger Tips</p>
+                        </div>
+                    </div>
+                    <div class='widget LinkList' data-version='2' id='LinkList103'>
+                        <ul class='social-icons social social-bg-hover'>
+                            <li class='facebook-f link-0'>
+                                <a alt='facebook-f' class='facebook-f btn' href='https://www.facebook.com/MD.MINARULNS?mibextid=ZbWKwL' rel='noopener noreferrer' target='_blank' title='facebook-f'><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class='youtube link-1'>
+                                <a alt='youtube' class='youtube btn' href='https://youtube.com/@minarulns?si=HZBRu1zKY6z8Ifyt' rel='noopener noreferrer' target='_blank' title='youtube'><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class='instagram link-2'>
+                                <a alt='instagram' class='instagram btn' href='https://www.instagram.com/minarulns?igsh=ZjNpbjJ4ZXVzeW9t' rel='noopener noreferrer' target='_blank' title='instagram'><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class='twitter link-3'>
+                                <a alt='twitter' class='twitter btn' href='https://www.twitter.com/minarulns' rel='noopener noreferrer' target='_blank' title='twitter'><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class='rss link-4'>
+                                <a alt='rss' class='rss btn' href='/' rel='noopener noreferrer' target='_blank' title='rss'><i class="fas fa-rss"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footerbar flex-center'>
+            <div class='container row-x1'>
+                <div class='footer-copyright section' id='footer-copyright' name='Footer Copyright'>
+                    <div class='widget Text' data-version='2' id='Text101'>
+                        <div style="margin:0px 0%;font-style: italic;">
+                            <div align="center">
+                                <font color="white" size="2">
+                                    Copyright &copy <span id="current-year"></span><br/>
+                                    All Rights Reserved |<br/>
+                                    Designer & Developer: <a href="https://www.facebook.com/MD.MINARULNS?mibextid=ZbWKwL">Md. Minarul Islam</a>
+                                </font>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='footer-menu section' id='footer-menu' name='Footer Menu'>
+                    <div class='widget LinkList' data-version='2' id='LinkList104'>
+                        <ul class='link-list list-style'>
+                            <li>
+                                <a href='/'>Home</a>
+                            </li>
+                            <li>
+                                <a href='/p/contact.html'>Contact</a>
+                            </li>
+                            <li>
+                                <a href='#'>Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href='/p/privacy-policy.html'>Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+       document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+  </html>
